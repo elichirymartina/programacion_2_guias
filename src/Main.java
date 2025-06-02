@@ -1,6 +1,9 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
+    //estoy de vacaciones, no avancé casi nada pero llegué a hacer el repo :)
+
     /*
     crud con login
     ¿qué datos vamos a requerir del grupo de personas?
