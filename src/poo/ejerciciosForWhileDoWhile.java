@@ -1,7 +1,9 @@
+package poo;
+
 import java.util.Scanner;
 
 
-public class ejercitacion1 {
+public class ejerciciosForWhileDoWhile {
 
     public static void ejercicio1() {
 

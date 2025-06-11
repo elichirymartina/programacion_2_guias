@@ -1,3 +1,5 @@
+import poo.ejerciciosForWhileDoWhile;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -17,16 +19,16 @@ public class Main {
         System.out.println("Wenas wenas");
 
         /*
-        ejercitacion1.ejercicio1();
-        ejercitacion1.ejercicio2();
-        ejercitacion1.ejercicio3();
-        ejercitacion1.ejercicio4();
-        ejercitacion1.ejercicio5();
-        ejercitacion1.ejercicio6();
-        ejercitacion1.ejercicio7();
-        ejercitacion1.ejercicio8();
+        poo.ejercitacion1.ejercicio1();
+        poo.ejercitacion1.ejercicio2();
+        poo.ejercitacion1.ejercicio3();
+        poo.ejercitacion1.ejercicio4();
+        poo.ejercitacion1.ejercicio5();
+        poo.ejercitacion1.ejercicio6();
+        poo.ejercitacion1.ejercicio7();
+        poo.ejercitacion1.ejercicio8();
+        ejerciciosForWhileDoWhile.ejercicio9();
          */
-
-        ejercitacion1.ejercicio9();
+        poo.ejerciciosMixtos.ejercicio10();
     }
 }
