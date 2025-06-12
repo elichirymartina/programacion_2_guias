@@ -1,4 +1,4 @@
-package gestionDePedidos;
+package poo.ej_1_GestionDePedidos;
 
 public class Producto {
     String nombre;
@@ -32,5 +32,7 @@ public class Producto {
     public void reducirCantidad(int cantidad) {
         this.cantidadDisponible -= cantidad;
     }
+
+
 
 }

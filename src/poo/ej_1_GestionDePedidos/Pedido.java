@@ -1,9 +1,9 @@
-package gestionDePedidos;
+package poo.ej_1_GestionDePedidos;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Pedido {
-    private ArrayList<ItemPedido> items;
+    public ArrayList<ItemPedido> items;
     public String idPedido;
     public String estado;
 
@@ -17,7 +17,7 @@ public class Pedido {
         items.add(item);
    }
 
-   public void calcularTotal() {
+   public double calcularTotal() {
 
         double total = 0;
 
@@ -25,6 +25,7 @@ public class Pedido {
             total += items.get(i).calcularSubtotal();
         }
 
+        return total;
     }
 
     public void validarDisponibilidad(ItemPedido item, Scanner scanner){
@@ -55,6 +56,7 @@ public class Pedido {
         }
 
         cambiarEstado("Completado");
+
     }
 
     public void cambiarEstado(String nuevoEstado) {

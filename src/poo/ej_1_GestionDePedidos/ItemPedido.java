@@ -1,4 +1,4 @@
-package gestionDePedidos;
+package poo.ej_1_GestionDePedidos;
 
 public class ItemPedido {
     public Producto producto;
@@ -19,7 +19,7 @@ public class ItemPedido {
     }
 
     public void establecerCantidadSolicitada(int nuevaCantidad){
-        this.cantidadSolicitada = cantidadSolicitada;
+        this.cantidadSolicitada = nuevaCantidad;
     }
 
     public double calcularSubtotal() {
